@@ -10,5 +10,5 @@ var y = +prompt("Enter #1")
 var r = Calc(x,y);
 
 var el = document.createElement('div');
-el.textContent = r.tostring();
+el.textContent = r.toString();
 document.body.appendChild(el)
